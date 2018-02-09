@@ -2,10 +2,10 @@ package com.pik.arithmeq;
 
 public interface ValFun
 {
-    default Object getVal( Object var, Calc c ){
+    default Double getVal( Object var, Calc c ){
         return null;
     }
-    default Object exeFun( Object fun, Calc c ){
+    default Double exeFun( Object fun, Double lastArg, Calc c ){
         return null;
     }
 }

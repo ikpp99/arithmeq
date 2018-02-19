@@ -40,6 +40,7 @@ public class Calc
         
         tt("@@@ res = "+q.execute( prog )
         +"\n direct = "+(-A+B/C*Math.pow( E,F ))
+        +"\n symbol = "+q.execute( prog )
         +"\n symbol = "+q.execute( pro2 )
         );
     }
